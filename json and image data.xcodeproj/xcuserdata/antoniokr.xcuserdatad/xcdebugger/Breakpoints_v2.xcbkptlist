@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "597642E5-3AB4-4ACF-A3FA-18A359E4251B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10E01218-86AF-4739-AD86-5E2904DF90FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "json and image data/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "10E01218-86AF-4739-AD86-5E2904DF90FE - 8dcdfa1e791a8f93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "json_and_image_data.ContentView.body.getter : some"
+                  moduleName = "json and image data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniokr/Develope/swift/json%20and%20image%20data/json%20and%20image%20data/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "10E01218-86AF-4739-AD86-5E2904DF90FE - f9dfc8119630df0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in json_and_image_data.ContentView.body.getter : some"
+                  moduleName = "json and image data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniokr/Develope/swift/json%20and%20image%20data/json%20and%20image%20data/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "178">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
