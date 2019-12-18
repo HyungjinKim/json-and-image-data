@@ -25,6 +25,8 @@ class ImageLoader: ObservableObject {
 
         let youtubeImageUrl = url.split(separator: "?")
         guard let url = URL(string: String(youtubeImageUrl[0])) else { return }
+        DispatchQueue.global(qos: .userInteractive).async {
+            
         URLSession.shared.dataTask(with: url) { (data, _, _) in
             guard let data = data else { return }
             
@@ -34,6 +36,7 @@ class ImageLoader: ObservableObject {
                 self.data = data
             }
         }.resume()
+        }
     }
 }
 

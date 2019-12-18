@@ -54,7 +54,8 @@ class NetworkManager: ObservableObject {
         }
         //objectWillChange.send(self)
         // end
-        URLSession.shared.dataTask(with: URL(fileURLWithPath: _jsonFilePath!)) { (data, _, error) in
+        DispatchQueue.global(qos: .userInteractive).async {
+            URLSession.shared.dataTask(with: URL(fileURLWithPath: self._jsonFilePath!)) { (data, _, error) in
             do {
                 guard let data = data else { return }
                 let youtubeVideo = try! JSONDecoder().decode([Youtube].self, from: data)
@@ -67,6 +68,7 @@ class NetworkManager: ObservableObject {
                 print("Error")
             }
         }.resume()
+        }
 
         //self.distance = newDistance
     }

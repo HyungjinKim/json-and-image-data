@@ -56,9 +56,9 @@ struct ContentView: View {
                                             .padding(.horizontal, 0)
                                             .font(.subheadline)
                                     }.frame(width: 76).onTapGesture {
-                                        DispatchQueue.main.async {
+//                                        DispatchQueue.global(qos: .userInitiated).async {
                                             self.changeCreator(String(json.split(separator: "_")[1].split(separator: ".")[0]))
-                                        }
+//                                        }
                                     }
                                 }
                             }
@@ -80,9 +80,9 @@ struct ContentView: View {
     }
     
     private func changeCreator(_ name: String) {
-        DispatchQueue.main.async {
+//        DispatchQueue.global(qos: .userInitiated).async {
             self.networkManager.jsonParsing(name: name)
-        }
+//        }
     }
 }
 

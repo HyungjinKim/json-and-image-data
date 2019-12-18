@@ -31,6 +31,7 @@
 		E8C4CA6E239636D4002D7E94 /* VideoTitleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4CA6D239636D4002D7E94 /* VideoTitleListView.swift */; };
 		E8C4CA7023963726002D7E94 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4CA6F23963726002D7E94 /* VideoPlayerView.swift */; };
 		E8C4CA7223963755002D7E94 /* ImageWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4CA7123963755002D7E94 /* ImageWidgetView.swift */; };
+		E8F00C6B23AA1D15007B918E /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F00C6A23AA1D15007B918E /* PostListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		E8C4CA6D239636D4002D7E94 /* VideoTitleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTitleListView.swift; sourceTree = "<group>"; };
 		E8C4CA6F23963726002D7E94 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		E8C4CA7123963755002D7E94 /* ImageWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWidgetView.swift; sourceTree = "<group>"; };
+		E8F00C6A23AA1D15007B918E /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				E8C4CA6D239636D4002D7E94 /* VideoTitleListView.swift */,
 				E8C4CA6F23963726002D7E94 /* VideoPlayerView.swift */,
 				E8C4CA7123963755002D7E94 /* ImageWidgetView.swift */,
+				E8F00C6A23AA1D15007B918E /* PostListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				E83287D723A7A09F004AAFA4 /* ActivityIndicator.swift in Sources */,
 				E8C4C9FD239416AF002D7E94 /* AppDelegate.swift in Sources */,
 				E8C4CA5F239632E6002D7E94 /* YoutubeVideoInfo.swift in Sources */,
+				E8F00C6B23AA1D15007B918E /* PostListView.swift in Sources */,
 				E8C4CA7023963726002D7E94 /* VideoPlayerView.swift in Sources */,
 				E83287D923A7D467004AAFA4 /* LoadableState.swift in Sources */,
 				E8C4C9FF239416AF002D7E94 /* SceneDelegate.swift in Sources */,
