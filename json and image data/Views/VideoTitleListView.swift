@@ -16,7 +16,8 @@ struct VideoTitleRowView: View {
         VStack (alignment: .leading) {
             ImageViewWidget(imageUrl: youtubeVideo.thumbnail_img)
             HStack {
-                Text(youtubeVideo.video_title).font(.subheadline)
+                Text(youtubeVideo.video_title).font(.subheadline).lineLimit(1)
+                Spacer()
                 Text(youtubeVideo.view_count).font(.subheadline)
             }
         }

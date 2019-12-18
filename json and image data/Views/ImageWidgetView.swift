@@ -20,7 +20,7 @@ struct ImageViewWidget: View {
     var body: some View {
         Image(uiImage: imageLoader.dataIsValid ? UIImage(data: imageLoader.data) ?? UIImage() : UIImage())
             .resizable()
-            .aspectRatio((336)/(188), contentMode: .fit)
+            .aspectRatio(336/188, contentMode: .fit)
     }
 }
 

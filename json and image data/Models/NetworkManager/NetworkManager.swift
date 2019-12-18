@@ -53,7 +53,7 @@ class NetworkManager: ObservableObject {
         }
         //objectWillChange.send(self)
         // end
-//        DispatchQueue.global(qos: .userInitiated).async {
+        DispatchQueue.global(qos: .userInteractive).async {
             URLSession.shared.dataTask(with: URL(fileURLWithPath: self._jsonFilePath!)) { (data, _, error) in
             do {
                 guard let data = data else { return }
@@ -68,7 +68,7 @@ class NetworkManager: ObservableObject {
                 print("Error")
             }
         }.resume()
-//        }
+        }
 
         //self.distance = newDistance
     }
