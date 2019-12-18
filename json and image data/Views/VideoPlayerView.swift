@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct VideoPlayer: View {
+struct VideoPlayerView: View {
     var selectedVideoUrl: String
 
     var body: some View {

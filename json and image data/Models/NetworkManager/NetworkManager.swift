@@ -35,7 +35,6 @@ class NetworkManager: ObservableObject {
         youtuberName = name
         _bBundle = bBundle
         _jsonFileName = "youtube_" + name
-        jsonParsing(name: name)
     }
     
     func jsonParsing(name: String) {
@@ -54,7 +53,7 @@ class NetworkManager: ObservableObject {
         }
         //objectWillChange.send(self)
         // end
-        DispatchQueue.global(qos: .userInteractive).async {
+//        DispatchQueue.global(qos: .userInitiated).async {
             URLSession.shared.dataTask(with: URL(fileURLWithPath: self._jsonFilePath!)) { (data, _, error) in
             do {
                 guard let data = data else { return }
@@ -63,12 +62,13 @@ class NetworkManager: ObservableObject {
                     self.isLoading = false
                     self.youtubeVideo = youtubeVideo
                     self.youtuberName = name
+                    print("Fetched")
                 }
             } catch {
                 print("Error")
             }
         }.resume()
-        }
+//        }
 
         //self.distance = newDistance
     }

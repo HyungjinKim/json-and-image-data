@@ -32,6 +32,7 @@
 		E8C4CA7023963726002D7E94 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4CA6F23963726002D7E94 /* VideoPlayerView.swift */; };
 		E8C4CA7223963755002D7E94 /* ImageWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4CA7123963755002D7E94 /* ImageWidgetView.swift */; };
 		E8F00C6B23AA1D15007B918E /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F00C6A23AA1D15007B918E /* PostListView.swift */; };
+		E8F00C6E23AA463D007B918E /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F00C6D23AA463D007B918E /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		E8C4CA6F23963726002D7E94 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		E8C4CA7123963755002D7E94 /* ImageWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWidgetView.swift; sourceTree = "<group>"; };
 		E8F00C6A23AA1D15007B918E /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		E8F00C6D23AA463D007B918E /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		E8C4CA6823963592002D7E94 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E8F00C6C23AA4607007B918E /* JsonFileLoad */,
 				E83287D523A7A07E004AAFA4 /* Helper */,
 				E8C4CA6C2396365E002D7E94 /* VideoPlayer */,
 				E8C4CA6A239635BD002D7E94 /* ImageLoader */,
@@ -194,6 +197,14 @@
 				E8C4CA62239633A3002D7E94 /* VideoPlayer.swift */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		E8F00C6C23AA4607007B918E /* JsonFileLoad */ = {
+			isa = PBXGroup;
+			children = (
+				E8F00C6D23AA463D007B918E /* DataSource.swift */,
+			);
+			path = JsonFileLoad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 				E8C4CA5F239632E6002D7E94 /* YoutubeVideoInfo.swift in Sources */,
 				E8F00C6B23AA1D15007B918E /* PostListView.swift in Sources */,
 				E8C4CA7023963726002D7E94 /* VideoPlayerView.swift in Sources */,
+				E8F00C6E23AA463D007B918E /* DataSource.swift in Sources */,
 				E83287D923A7D467004AAFA4 /* LoadableState.swift in Sources */,
 				E8C4C9FF239416AF002D7E94 /* SceneDelegate.swift in Sources */,
 				E8C4CA59239565DD002D7E94 /* Webview.swift in Sources */,
